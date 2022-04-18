@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibration_time>"Пн 18 апр 2022 02:40:10"</calibration_time>
+<image_width>1920</image_width>
+<image_height>1080</image_height>
+<flags>12</flags>
+<camera_matrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.5677598663928327e+03 0. 9.5950000000000000e+02 0.
+    1.5698260146860121e+03 5.3950000000000000e+02 0. 0. 1.</data></camera_matrix>
+<distortion_coefficients type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    1.7746202293461785e-02 -6.7204665235718858e-02 0. 0.
+    3.5079887214058908e-01</data></distortion_coefficients>
+<avg_reprojection_error>1.0596117889111023e+00</avg_reprojection_error>
+</opencv_storage>
