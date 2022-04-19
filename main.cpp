@@ -73,7 +73,9 @@ int main() {
     const Ptr<DetectorParameters>par = &params;
 
 
-    VideoCapture cap("../2.mp4");
+    VideoCapture cap("../1.mp4");
+    VideoWriter output("../result.avi", VideoWriter::fourcc('M','J','P','G'), 30, Size(1280, 720));
+
     while (true){
 
 
@@ -95,13 +97,13 @@ int main() {
 
         }
 
-
+        resize(frame, frame, Size(1280, 720));
         imshow("Frame", frame);
+        output.write(frame);
 
 
 
-
-        waitKey(0);
+        waitKey(10);
 
     }
 
